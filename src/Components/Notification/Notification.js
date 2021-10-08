@@ -1,7 +1,8 @@
-export default function Notification({ message }) {
-    return (
-        <>
-            <p>{message}</p>
-        </>
-    );
+const Notification = ({ message }) => {
+  return (
+    <>
+      <p>{message}</p>
+    </>
+  );
 };
+export default Notification;
